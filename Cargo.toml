@@ -1,0 +1,11 @@
+[package]
+name = "php-ffi-to-rust"
+version = "0.0.1"
+authors = ["Colin"]
+
+[lib]
+name = "double_input"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.149"
